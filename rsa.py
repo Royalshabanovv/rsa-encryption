@@ -63,6 +63,7 @@ for i in range(len(ciphertext)):
 for i in range(len(desiphred_message)):
     desiphred_message[i] = a[b.index(desiphred_message[i])]
 
-print("Decrypted message:", ''.join(desifred_message))
+print("Decrypted message:", ''.join(desiphred_message))
 print("Private key (n, d):", (n, d))
+
 
